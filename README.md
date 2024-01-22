@@ -1,22 +1,22 @@
-# ts-nameof
+# ts5-nameof
 
-[![Build Status](https://travis-ci.org/dsherret/ts-nameof.svg)](https://travis-ci.org/dsherret/ts-nameof)
+[![Build Status](https://travis-ci.org/dsherret/ts5-nameof.svg)](https://travis-ci.org/dsherret/ts5-nameof)
 
 [`nameof`](https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/keywords/nameof) in TypeScript.
 
-Monorepo for ts-nameof projects:
+Monorepo for ts5-nameof projects:
 
-- [ts-nameof](packages/ts-nameof) (TypeScript compiler)
-- [babel-plugin-ts-nameof](packages/babel-plugin-ts-nameof) (Babel compiler)
-- [ts-nameof.macro](packages/ts-nameof.macro) (Babel compiler)
+- [ts5-nameof](packages/ts5-nameof) (TypeScript compiler)
+- [babel-plugin-ts5-nameof](packages/babel-plugin-ts5-nameof) (Babel compiler)
+- [ts5-nameof.macro](packages/ts5-nameof.macro) (Babel compiler)
 
 ## Recommend: Don't use this package
 
-See [here](https://github.com/dsherret/ts-nameof/issues/121).
+See [here](https://github.com/dsherret/ts5-nameof/issues/121).
 
 ## Setup
 
-ts-nameof is a _compile time transform_ so it requires some setup. For setup instructions, see the packages above for the compiler you use.
+ts5-nameof is a _compile time transform_ so it requires some setup. For setup instructions, see the packages above for the compiler you use.
 
 ## nameof transform
 

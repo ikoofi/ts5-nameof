@@ -1,4 +1,4 @@
-import { assertNever, throwError } from "@ts-nameof/common";
+import { assertNever, throwError } from "@ts5-nameof/common";
 import { createArrayLiteralNode, createStringLiteralNode, createTemplateExpressionNode } from "./nodeFactories";
 import { flattenNodeToArray, getLastNextNode } from "./nodeHelpers";
 import { FunctionNode, NameofCallExpression, Node, StringLiteralNode, TemplateExpressionNode } from "./nodes";

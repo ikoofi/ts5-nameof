@@ -1,8 +1,8 @@
 import * as babel from "@babel/core";
 import { Node, NodePath } from "@babel/traverse";
 import * as babelTypes from "@babel/types";
-import { throwErrorForSourceFile } from "@ts-nameof/common";
-import { transformCallExpression } from "@ts-nameof/transforms-common";
+import { throwErrorForSourceFile } from "@ts5-nameof/common";
+import { transformCallExpression } from "@ts5-nameof/transforms-common";
 import { parse, ParseOptions } from "./parse";
 import { transform } from "./transform";
 

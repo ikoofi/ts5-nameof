@@ -1,5 +1,5 @@
 {
-  "name": "babel-plugin-ts-nameof",
+  "name": "babel-plugin-ts5-nameof",
   "version": "4.2.1",
   "description": "nameof in TypeScript for babel.",
   "main": "dist/index.js",
@@ -17,18 +17,18 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dsherret/ts-nameof.git",
-    "directory": "packages/babel-plugin-ts-nameof"
+    "url": "git+https://github.com/dsherret/ts5-nameof.git",
+    "directory": "packages/babel-plugin-ts5-nameof"
   },
   "author": "David Sherret",
   "license": "MIT",
   "dependencies": {
-    "@ts-nameof/transforms-babel": "^4.2.1"
+    "@ts5-nameof/transforms-babel": "^4.2.1"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/preset-typescript": "^7.16.5",
-    "@ts-nameof/tests-common": "^4.2.0",
+    "@ts5-nameof/tests-common": "^4.2.0",
     "@types/babel__core": "^7.1.17",
     "@types/babel__generator": "^7.6.3",
     "@types/babel__template": "^7.4.1",

@@ -1,6 +1,6 @@
-# ts-nameof - Babel transforms
+# ts5-nameof - Babel transforms
 
-Contains the babel transforms used in ts-nameof.
+Contains the babel transforms used in ts5-nameof.
 
 ## Development Commands
 

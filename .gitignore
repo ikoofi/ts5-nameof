@@ -10,7 +10,7 @@
 *.csproj
 *.csproj.user
 *.sln
-/packages/ts-nameof/temp/
+/packages/ts5-nameof/temp/
 /packages/*/dist/
 /packages/*/node_modules/
 *.tsbuildinfo

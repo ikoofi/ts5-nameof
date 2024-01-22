@@ -1,7 +1,7 @@
 {
-  "name": "@ts-nameof/tests-common",
+  "name": "@ts5-nameof/tests-common",
   "version": "4.2.0",
-  "description": "Common tests for ts-nameof packages.",
+  "description": "Common tests for ts5-nameof packages.",
   "main": "./dist/index.js",
   "author": "David Sherret",
   "license": "MIT",

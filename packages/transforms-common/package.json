@@ -1,7 +1,7 @@
 {
-  "name": "@ts-nameof/transforms-common",
+  "name": "@ts5-nameof/transforms-common",
   "version": "4.2.1",
-  "description": "ts-nameof - Common code for transforms.",
+  "description": "ts5-nameof - Common code for transforms.",
   "main": "./dist/index.js",
   "author": "David Sherret",
   "license": "MIT",
@@ -15,7 +15,7 @@
     "test:debug": "npm run build && mocha --inspect-brk"
   },
   "dependencies": {
-    "@ts-nameof/common": "^4.2.1"
+    "@ts5-nameof/common": "^4.2.1"
   },
   "devDependencies": {
     "@types/mocha": "^9.0.0",

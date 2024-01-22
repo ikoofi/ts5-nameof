@@ -22,27 +22,27 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Run transforms-ts tests",
+      "name": "Run transforms-ts5 tests",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "--prefix", "packages/transforms-ts", "test:debug"],
+      "runtimeArgs": ["run", "--prefix", "packages/transforms-ts5", "test:debug"],
       "port": 9229,
       "stopOnEntry": false
     },
     {
       "type": "node",
       "request": "launch",
-      "name": "Run ts-nameof.macro tests",
+      "name": "Run ts5-nameof.macro tests",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "--prefix", "packages/ts-nameof.macro", "test:debug"],
+      "runtimeArgs": ["run", "--prefix", "packages/ts5-nameof.macro", "test:debug"],
       "port": 9229,
       "stopOnEntry": false
     },
     {
       "type": "node",
       "request": "launch",
-      "name": "Run ts-nameof tests",
+      "name": "Run ts5-nameof tests",
       "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "--prefix", "packages/ts-nameof", "test:debug"],
+      "runtimeArgs": ["run", "--prefix", "packages/ts5-nameof", "test:debug"],
       "port": 9229,
       "stopOnEntry": false
     }

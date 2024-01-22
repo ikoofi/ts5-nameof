@@ -18,8 +18,8 @@ import {
   UnaryExpression,
   V8IntrinsicIdentifier,
 } from "@babel/types";
-import { throwError } from "@ts-nameof/common";
-import * as common from "@ts-nameof/transforms-common";
+import { throwError } from "@ts5-nameof/common";
+import * as common from "@ts5-nameof/transforms-common";
 import { getNegativeNumericLiteralValue, getReturnStatementArgumentFromBlock, isNegativeNumericLiteral } from "./helpers";
 
 export interface ParseOptions {

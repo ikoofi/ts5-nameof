@@ -1,10 +1,10 @@
 # Logging Bugs
 
-1. Start logging an issue in the [issue tracker](https://github.com/dsherret/ts-nameof/issues).
+1. Start logging an issue in the [issue tracker](https://github.com/dsherret/ts5-nameof/issues).
 2. Clearly identify the problem and submit some reproduction code.
    - Prune the reproduction to remove needless details.
 3. State the current and expected behaviour.
-4. State the version of ts-nameof (always show a reproduction of the bug on the latest version).
+4. State the version of ts5-nameof (always show a reproduction of the bug on the latest version).
 
 # Contributing Bug Fixes
 
@@ -16,7 +16,7 @@
 
 # Contributing Features
 
-1. Log an issue in the [issue tracker](https://github.com/dsherret/ts-nameof/issues). In the issue:
+1. Log an issue in the [issue tracker](https://github.com/dsherret/ts5-nameof/issues). In the issue:
    1. Propose the change.
       - Outline all changes that will be made to the public API.
       - Discuss any structural changes to the code if necessary.

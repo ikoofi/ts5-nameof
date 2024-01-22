@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist"
+  },
+  "extends": "../../tsconfig.common.json",
+  "include": ["./src"],
+  "references": [
+    { "path": "../transforms-ts5" },
+    { "path": "../tests-common" },
+    { "path": "../scripts-common" }
+  ]
+}

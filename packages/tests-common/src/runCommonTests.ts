@@ -568,15 +568,15 @@ nameof(window);
 
       for (let i = result.length - 1; i >= 0; i--) {
         const originalText = result[i];
-        result[i] = "[ts-nameof]: " + originalText;
+        result[i] = "[ts5-nameof]: " + originalText;
         // ts
-        result.push("[ts-nameof:/file.ts]: " + originalText);
+        result.push("[ts5-nameof:/file.ts]: " + originalText);
         // babel
         const babelPath = path.resolve(__dirname, "../../transforms-babel/src/tests/test.ts");
         // todo: temporary... switch to one path in the year 2021 (old versions of babel won't have the prefixed path)
-        result.push(`${babelPath}: [ts-nameof:${babelPath}]: ${originalText}`);
+        result.push(`${babelPath}: [ts5-nameof:${babelPath}]: ${originalText}`);
         // babel macro (not ideal, but whatever)
-        result.push(`${path.resolve(__dirname, "../../ts-nameof.macro/src/tests/test.ts")}: ./ts-nameof.macro: [ts-nameof]: ${originalText}`);
+        result.push(`${path.resolve(__dirname, "../../ts5-nameof.macro/src/tests/test.ts")}: ./ts5-nameof.macro: [ts5-nameof]: ${originalText}`);
       }
 
       return result;

@@ -1,9 +1,9 @@
 export function throwError(message: string): never {
-    throw new Error(`[ts-nameof]: ${sanitizeMessage(message)}`);
+    throw new Error(`[ts5-nameof]: ${sanitizeMessage(message)}`);
 }
 
 export function throwErrorForSourceFile(message: string, sourceFilePath: string): never {
-    throw new Error(`[ts-nameof:${sourceFilePath}]: ${sanitizeMessage(message)}`);
+    throw new Error(`[ts5-nameof:${sourceFilePath}]: ${sanitizeMessage(message)}`);
 }
 
 export function assertNever(value: never, message: string): never {

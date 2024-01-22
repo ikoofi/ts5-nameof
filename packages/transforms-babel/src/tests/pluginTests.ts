@@ -1,6 +1,6 @@
 import * as babel from "@babel/core";
 import "@babel/preset-typescript";
-import { runCommonTests } from "@ts-nameof/tests-common";
+import { runCommonTests } from "@ts5-nameof/tests-common";
 import * as path from "path";
 import { plugin } from "../index";
 

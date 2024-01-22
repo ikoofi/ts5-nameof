@@ -1,4 +1,4 @@
-import { assertNever } from "@ts-nameof/common";
+import { assertNever } from "@ts5-nameof/common";
 import { NameofCallExpression, Node, TemplateExpressionNode } from "./nodes";
 
 /**

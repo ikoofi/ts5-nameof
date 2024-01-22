@@ -1,7 +1,7 @@
 {
-  "name": "@ts-nameof/scripts-common",
+  "name": "@ts5-nameof/scripts-common",
   "version": "4.0.2",
-  "description": "ts-nameof - Common scripts for ts-nameof packages.",
+  "description": "ts5-nameof - Common scripts for ts5-nameof packages.",
   "main": "./dist/index.js",
   "author": "David Sherret",
   "license": "MIT",

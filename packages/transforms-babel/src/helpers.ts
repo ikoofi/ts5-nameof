@@ -1,6 +1,6 @@
 import * as babelTypes from "@babel/types";
 import { BlockStatement, Node, UnaryExpression } from "@babel/types";
-import { throwError } from "@ts-nameof/common";
+import { throwError } from "@ts5-nameof/common";
 
 export function isNegativeNumericLiteral(t: typeof babelTypes, node: Node): node is UnaryExpression {
   if (!t.isUnaryExpression(node)) {
