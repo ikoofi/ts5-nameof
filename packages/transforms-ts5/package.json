@@ -1,8 +1,8 @@
 {
   "name": "@ts5-nameof/transforms-ts5",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "ts5-nameof - TypeScript compiler transforms for ts5-nameof packages.",
-  "main": "./dist/index.js",
+  "main": "dist/index.js",
   "author": "Kornvv",
   "license": "MIT",
   "publishConfig": {

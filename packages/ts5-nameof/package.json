@@ -1,12 +1,12 @@
 {
   "name": "ts5-nameof",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "nameof in TypeScript",
   "main": "dist/main.js",
   "typings": "ts5-nameof.d.ts",
   "scripts": {
     "clean": "rimraf dist && tsc --b --clean",
-    "build": "tsc --b && npm run build:declarations",
+    "build": "tsc",
     "build-test": "tsc --build && npm run --silent copy-test-files",
     "test": "npm run build-test && mocha",
     "test:debug": "npm run build-test && mocha --inspect-brk",
@@ -53,5 +53,8 @@
     "ts-morph": "^13.0.2",
     "ts-node": "^10.4.0",
     "typescript": "^4.4.3"
+  },
+  "directories": {
+    "lib": "lib"
   }
 }

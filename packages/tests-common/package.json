@@ -1,8 +1,8 @@
 {
   "name": "@ts5-nameof/tests-common",
-  "version": "4.2.0",
+  "version": "1.0.2",
   "description": "Common tests for ts5-nameof packages.",
-  "main": "./dist/index.js",
+  "main": "dist/index.js",
   "author": "David Sherret",
   "license": "MIT",
   "publishConfig": {
@@ -10,8 +10,9 @@
   },
   "scripts": {
     "clean": "rimraf dist && tsc --b --clean",
-    "build": "tsc --b",
-    "test": "echo 'ignore'"
+    "build": "tsc",
+    "test": "echo 'ignore'",
+    "prepublish": "npm run build"
   },
   "devDependencies": {
     "@dprint/formatter": "^0.1.5",
