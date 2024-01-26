@@ -1,13 +1,5 @@
 ﻿# ts5-nameof.macro
 
-[![npm version](https://badge.fury.io/js/ts5-nameof.macro.svg)](https://badge.fury.io/js/ts5-nameof.macro)
-[![Build Status](https://travis-ci.org/dsherret/ts5-nameof.svg)](https://travis-ci.org/dsherret/ts5-nameof)
-[![Babel Macro](https://img.shields.io/badge/babel--macro-%F0%9F%8E%A3-f5da55.svg?style=flat-square)](https://github.com/kentcdodds/babel-plugin-macros)
-[![stable](http://badges.github.io/stability-badges/dist/stable.svg)](http://github.com/badges/stability-badges)
-
-[`nameof`](https://msdn.microsoft.com/en-us/library/dn986596.aspx) in TypeScript.
-
-This is a [babel macro](https://github.com/kentcdodds/babel-plugin-macros) of [ts5-nameof](https://github.com/dsherret/ts5-nameof).
 
 ## Setup
 

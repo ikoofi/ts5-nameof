@@ -1,6 +1,6 @@
 {
   "name": "ts5-nameof.macro",
-  "version": "1.0.1",
+  "version": "0.0.1",
   "description": "Babel macro for nameof in TypeScript.",
   "main": "dist/index.js",
   "types": "ts5-nameof.macro.d.ts",
@@ -19,22 +19,22 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dsherret/ts5-nameof.git",
+    "url": "git+https://github.com/ikoofi/ts5-nameof.git",
     "directory": "packages/ts5-nameof.macro"
   },
-  "author": "David Sherret",
+  "author": "Kornvv",
   "license": "MIT",
   "peerDependencies": {
     "babel-plugin-macros": "^3.1.0"
   },
   "dependencies": {
-    "@ts5-nameof/transforms-babel": "^1.0.0"
+    "@ts5-nameof/transforms-babel": "^0.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.16.5",
     "@babel/preset-typescript": "^7.16.5",
-    "@ts5-nameof/scripts-common": "^1.0.0",
-    "@ts5-nameof/tests-common": "^1.0.0",
+    "@ts5-nameof/scripts-common": "^0.0.1",
+    "@ts5-nameof/tests-common": "^0.0.1",
     "@types/babel__core": "^7.1.17",
     "@types/babel__generator": "^7.6.3",
     "@types/babel__template": "^7.4.1",
@@ -46,6 +46,6 @@
     "rimraf": "^3.0.2",
     "ts-morph": "^13.0.2",
     "ts-node": "^10.4.0",
-    "typescript": "^4.5.4"
+    "typescript": "^5.0.0"
   }
 }

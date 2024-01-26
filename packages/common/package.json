@@ -1,9 +1,8 @@
 {
   "name": "@ts5-nameof/common",
-  "version": "1.0.6",
+  "version": "0.0.1",
   "description": "ts5-nameof - Common code across packages.",
   "main": "dist/index.js",
-  "author": "David Sherret",
   "license": "MIT",
   "publishConfig": {
     "access": "public"

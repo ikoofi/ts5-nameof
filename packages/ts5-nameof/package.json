@@ -1,6 +1,6 @@
 {
   "name": "ts5-nameof",
-  "version": "1.0.9",
+  "version": "0.0.1",
   "description": "nameof in TypeScript",
   "main": "dist/main.js",
   "typings": "ts5-nameof.d.ts",
@@ -17,7 +17,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dsherret/ts5-nameof.git",
+    "url": "git+https://github.com/ikoofi/ts5-nameof.git",
     "directory": "packages/ts5-nameof"
   },
   "keywords": [
@@ -29,20 +29,20 @@
   "author": "Kornvv",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dsherret/ts5-nameof/issues"
+    "url": "https://github.com/ikoofi/ts5-nameof/issues"
   },
-  "homepage": "https://github.com/dsherret/ts5-nameof#readme",
+  "homepage": "https://github.com/ikoofi/ts5-nameof#readme",
   "peerDependencies": {
     "typescript": "*"
   },
   "dependencies": {
-    "@ts5-nameof/common": "^1.0.0",
-    "@ts5-nameof/transforms-ts5": "^1.0.0",
+    "@ts5-nameof/common": "^0.0.1",
+    "@ts5-nameof/transforms-ts5": "^0.0.1",
     "glob": "^7.2.0"
   },
   "devDependencies": {
-    "@ts5-nameof/scripts-common": "^1.0.0",
-    "@ts5-nameof/tests-common": "^1.0.0",
+    "@ts5-nameof/scripts-common": "^0.0.1",
+    "@ts5-nameof/tests-common": "^0.0.1",
     "@types/glob": "^7.2.0",
     "@types/mocha": "^9.0.0",
     "@types/node": "^17.0.0",
@@ -52,7 +52,7 @@
     "rimraf": "^3.0.2",
     "ts-morph": "^13.0.2",
     "ts-node": "^10.4.0",
-    "typescript": "^4.4.3"
+    "typescript": "^5.0.0"
   },
   "directories": {
     "lib": "lib"

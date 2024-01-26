@@ -11,5 +11,5 @@ export function assertNever(value: never, message: string): never {
 }
 
 function sanitizeMessage(message: string) {
-    return message.replace(/^\[ts\-nameof[^\]]*\]: /, "");
+    return message.replace(/^\[ts5\-nameof[^\]]*\]: /, "");
 }
